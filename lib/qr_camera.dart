@@ -213,6 +213,8 @@ class Preview extends StatelessWidget {
             nativeOrientationInt = 0;
         }
 
+        nativeOrientationInt = 0;
+
         return new FittedBox(
           fit: fit,
           child: new RotatedBox(
